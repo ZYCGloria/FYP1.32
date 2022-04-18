@@ -1,0 +1,1278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+  <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+  <script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+  <script src="https://cdn.amcharts.com/lib/4/plugins/wordCloud.js"></script>
+
+  <script src="assets/js/Inverse-Relation.js"></script>
+  <script src="assets/js/star-revenue.js"></script>
+  <!-- <script src="assets/js/Try.js"></script> -->
+  <script src="assets/js/starnumber1.js"></script>
+  <script src="assets/js/piebar1.js"></script>
+  <script src="assets/js/piebar2.js"></script>
+  <script src="assets/js/piebar3.js"></script>
+  <script src="assets/js/piebar4.js"></script>
+  <script src="assets/js/jinjiangoccupancy.js"></script>
+  <script src="assets/js/wordcloud.js"></script>
+  <script src="assets/js/4hotelsprofit.js"></script>
+  <script src="assets/js/5starsnumber.js"></script>
+  <!-- <script src="assets/js/healthcare.js"></script> -->
+
+
+
+
+  <title>China's Hotel Industry under Covid-19</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/hotel-icon2.png" rel="icon">
+  <link href="assets/img/hotel-icon2.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Medicio - v4.7.0
+  * Template URL: https://bootstrapmade.com/medicio-free-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <!-- <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
+      <div class="align-items-center d-none d-md-flex">
+         
+      </div>
+      <div class="d-flex align-items-center">
+        <i ></i> HKBU Honours Project
+      </div>
+    </div>
+  </div> -->
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+      <div class="col-lg-5">
+      </div>
+
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/hotel-icon1.png" alt=""></a> -->
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <h1 class="logo me-auto"><a href="index.html">Medicio</a></h1> -->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto " href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">Introduction</a></li>
+          <li><a class="nav-link scrollto" href="#services">Quarantine Hotels</a></li>
+          <li><a class="nav-link scrollto" href="#departments">Unequal Impact </a></li>
+          <li><a class="nav-link scrollto" href="#doctors">Digitalization</a></li>
+          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li> -->
+          <!-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li> -->
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a href="#appointment" class="appointment-btn scrollto"><span class="d-none d-md-inline">Get Started</span></a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <!-- <ol class="carousel-indicators" id="hero-carousel-indicators"></ol> -->
+
+
+      <div class="carousel-inner" role="listbox" style="background-image: url(assets/img/hotel-header.jpeg)">
+
+        <!-- Slide 1 -->
+        <!-- <div class="carousel-item active" > -->
+        <div class="container">
+          <h2>China’s Hotel Industry under Covid-19 <span></span></h2>
+          <p>Travel restrictions brought by the pandemic have hit the pause button on China’s hospitality industry,
+            which relies heavily on population movement. This has prompted local hotels to explore different business
+            models to survive in the battered economy. However, the unequal impact and uncertainty brought by the
+            epidemic have left many hotels unsure of their future.</p>
+          <a href="#about" class="btn-get-started scrollto">Read More</a>
+        </div>
+        <!-- </div> -->
+
+        <!-- Slide 2 -->
+        <!-- <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg)">
+          <div class="container">
+            <h2>Lorem Ipsum Dolor</h2>
+            <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel.</p>
+            <a href="#about" class="btn-get-started scrollto">Read More</a>
+          </div>
+        </div> -->
+
+        <!-- Slide 3 -->
+        <!-- <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg)">
+          <div class="container">
+            <h2>Sequi ea ut et est quaerat</h2>
+            <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel.</p>
+            <a href="#about" class="btn-get-started scrollto">Read More</a>
+          </div>
+        </div> -->
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+
+    <!-- ======= Introduction ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Introduction</h2>
+          <p>The Covid-19 pandemic began to spread globally in early 2020, bringing unprecedented crises to countries
+            around the world. China was the first country hammered by the deadly virus, so its hotel industry was the
+            first to see the outcome.</p>
+        </div>
+
+        <div class="row">
+          <!-- <div class="col-lg-6" data-aos="fade-right"> -->
+          <!-- <img src="assets/img/about.jpg" class="img-fluid" alt=""> -->
+          <div class="flourish-embed flourish-map" data-src="story/555214">
+            <script src="https://public.flourish.studio/resources/embed.js"></script>
+          </div>
+          <!-- <div class="infogram-embed"  style="max-width:8 00px" data-id="da43910f-4ef5-4502-8157-87b2148e9474" data-type="interactive"
+            data-title="Comparison of 4 Hotel Groups"></div>
+          <script>!function (e, i, n, s) { var t = "InfogramEmbeds", d = e.getElementsByTagName("script")[0]; if (window[t] && window[t].initialized) window[t].process && window[t].process(); else if (!e.getElementById(n)) { var o = e.createElement("script"); o.async = 1, o.id = n, o.src = "https://e.infogram.com/js/dist/embed-loader-min.js", d.parentNode.insertBefore(o, d) } }(document, 0, "infogram-async");</script>
+          <div
+            style="padding:10px 300px 10px 10px;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px">
+            <a href="https://infogram.com/da43910f-4ef5-4502-8157-87b2148e9474"
+              style="color:#989898!important;text-decoration:none!important;max-width:600px;" target="_blank">Comparison of 4 Hotel
+              Groups</a><br><a href="https://infogram.com"
+              style="color:#989898!important;text-decoration:none!important;" target="_blank"
+              rel="nofollow">Infogram</a></div> -->
+
+          <!-- </div> -->
+
+          <div class="col-12 " style="height:40px">
+          </div>
+
+
+          <div class="col-lg-12 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <!-- <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3> -->
+            <!-- <p class="fst-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore
+              magna aliqua.
+            </p> -->
+            <!-- <ul>
+              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+              <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla
+                pariatur.</li>
+            </ul> -->
+            <p>
+              The country experienced several large-scale lockdowns following the Covid-19 outbreak in early 2020, which
+              greatly restricted population movement. After more than half a year largely free of the virus locally,
+              outbreaks recurred in the first and third quarters of 2021, continuing to hit the occupancy rate and
+              performance of many hotels.
+            </p>
+            <p>
+              According to the Ministry of Culture and Tourism of the People's Republic of China, the average occupancy
+              rate of domestic hotels with star ratings in the first quarter of 2020 plummeted to 23%, more than halving
+              the number in the same period last year, and has not recovered to 2019 levels in subsequent quarters.
+            </p>
+            <p>
+              The decline in occupancy rates has led to a precipitous decline in revenue across the national hotel
+              industry. In the first quarter of 2020, the revenue of star hotels nationwide decreased by 31.5 billion
+              yuan compared with the previous quarter. In addition, their revenue in 2021 and 2020 fell by 28.8% and
+              37.7% respectively compared to 2019.
+            </p>
+          </div>
+
+          <div class="col-12 " style="height:30px">
+          </div>
+
+          <div class="col-lg-6" style="height:500px">
+            <div id="chartdiv1" style="height:500px"></div>
+          </div>
+
+          <div class="col-lg-6" style="height:500px">
+            <div id="chartdiv2" style="height:500px"></div>
+          </div>
+
+          <div class="col-12 " style="height:40px">
+          </div>
+        </div>
+        <div class="col-lg-12 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <p>
+            China set its GDP growth target for 2022 at around 5.5%, which was the lowest in 30 years and has gone under
+            even more pressure due to the deterioration of epidemic situation. The battered tourism and hotel industry
+            reflects the broader pain China's economy faces as it continues the zero-tolerance approach when other
+            countries shift to living with Covid.
+          </p>
+          <p>
+            This has prompted hotels, including listed companies like Zhejiang SSAW Boutique Hotels Co., Shanghai Jin
+            Jiang International Hotels Co., and BTG Hotels Group Co., to explore new business models to prevent closures
+            due to dismal business conditions. In the long run, this can optimize hotel management processes and drive
+            the digital transformation of the hotel industry. Still, the winter in the industry continues, and no one
+            knows where their future holds.
+          </p>
+        </div>
+
+      </div>
+    </section><!-- End Introduction -->
+
+
+    <!-- ======= Quarantine Hotel ======= -->
+    <section id="services" class="about">
+      <div class="container" data-aos="fade-up">
+
+
+        <div class="section-title">
+          <h2>Inside the Quarantine Hotels that Build up China’s Covid-Zero Defense</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <p>
+              As China battles the recent flare-up of Covid-19 cases, Wang Xudong, manager of Shanghai Sea Cube
+              International Hotel, felt unexpectedly relieved. His hotel began to see its revenue soar after suffering
+              losses for months as a quarantine spot.</p>
+            <p>
+              "With the recent outbreak at home and abroad, our hotel occupancy rate has been almost 100% and we have
+              made a lot of profits," said Mr Wang. "But it's just temporary. Six months ago, when the pandemic was
+              stable, the hotel occupancy rate was only 15%."</p>
+            <p>
+              There are tens of thousands of hotels in China experiencing similar countercyclical situations after
+              deciding to become quarantine hotels – providing centralized medical observation for inbound travelers and
+              local close contacts under China’s strict quarantine rules. These quarantine hotels are providing strong
+              support for China's Covid-Zero policy, but they are not able to find the backing for their future
+              development.</p>
+            <p>
+              “Our business is tied to the pandemic, but no one knows what will happen tomorrow,” said Mr Wang. "We are
+              struggling to survive and have no idea how this will end.“</p>
+          </div>
+
+          <!-- ======= Gallery1 ======= -->
+          <section id="gallery" class="gallery">
+            <div class="container" data-aos="fade-up">
+
+              <!-- <div class="section-title">
+                <h2>Gallery</h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+                  consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
+                  sit
+                  in iste officiis commodi quidem hic quas.</p>
+              </div> -->
+
+              <div class="gallery-slider swiper">
+                <div class="swiper-wrapper align-items-center">
+                  <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery1/gallery-1.jpg"><img
+                        src="assets/img/gallery1/gallery-1.jpg" class="img-fluid" alt=""></a></div>
+                  <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery1/gallery-2.jpg"><img
+                        src="assets/img/gallery1/gallery-2.jpg" class="img-fluid" alt=""></a></div>
+                  <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery1/gallery-3.jpg"><img
+                        src="assets/img/gallery1/gallery-3.jpg" class="img-fluid" alt=""></a></div>
+                  <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery1/gallery-4.jpg"><img
+                        src="assets/img/gallery1/gallery-4.jpg" class="img-fluid" alt=""></a></div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+
+            </div>
+          </section>
+
+          <div class="col-lg-12 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <p>
+              The National Health Commission (NHC) on January 28, 2020, released the Protocol on Prevention and Control
+              of
+              Novel Coronavirus Pneumonia, requiring the minimization of the movement of people. This has hit the pause
+              button on the hospitality industry, which relies heavily on population mobility. </p>
+            <p>
+              Hotels began to receive calls from guests canceling their rooms or restaurant reservations. "For hotels
+              across the country, almost all orders have been canceled, and there's nothing you can do about it." Mr.
+              Wang
+              said.</p>
+            <p>
+              According to the China Hotel Association, in the most difficult two months of January and February 2020,
+              73%
+              of hotels opted for "hibernation" — suspending their business to stop loss — for an average of 27.6 days.
+              The remaining 27%, such as Mr Wang's hotel, are striving to hold on.</p>
+            <p>
+              Despite this, a lot of hotels didn't make it through the winter of 2020. The number of star-rated hotels
+              decreased from 7,434 to 7,101 in the first quarter of 2020. By the second quarter of 2021, there were only
+              6,894 star-rated hotels left nationwide.</p>
+          </div>
+
+          <div class="col-12 " style="height:30px">
+          </div>
+
+          <div class="col-lg-6">
+            <div id="chartdiv3" style="height:500px"></div>
+          </div>
+
+          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <div class="col-lg-6 " style="height:30px">
+            </div>
+            <p>
+              As the domestic epidemic gradually stabilized, the hotel industry saw a rebound in occupancy rate and
+              revenue in the second half of 2020. However, the recurrence of the outbreak continued to hit most hotels.
+            </p>
+            <p>
+              After struggling to stay afloat for a year, Mr Wang thought the dawn for his hotel was coming. But the
+              recurrence of outbreaks in early 2021 brought the hotel industry to a halt once again.
+            </p>
+            <p>
+              "Even with single-digit cases, it can take two to three months for local hotels to get back to normal, and
+              months of earning will be lost,” Mr Wang said. “It's like there's no end to it.”
+            </p>
+            <p>
+              In this state of anxiety and helplessness, more and more hotels apply to become temporary quarantine
+              areas. So did Wang’s hotel in January 2021.
+            </p>
+            <p>
+              “After becoming a quarantine hotel, our occupancy rate has increased by 70% despite the narrowing of the
+              business scope,” said Wang. “Stable customer sources and cash flow are so important when everything is
+              uncertain.”
+            </p>
+          </div>
+
+          <div class="col-12 " style="height:25px">
+          </div>
+
+          <div class="col-lg-12 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <div class="col-lg-6 " style="height:30px">
+            </div>
+            <p>
+              Zhao Cheng’s hotel in Hangzhou has just opened when the pandemic hit, and was immediately requisitioned by
+              the government to serve as the quarantine hotel.
+            </p>
+            <p>
+              Zhao said there are many hotels like his that were "born" in the epidemic, they lacked operational
+              experience, let alone customer bases. “We have no choice. Without receiving quarantined people, we make
+              almost no profit and even face bankruptcy.”
+            </p>
+            <p>
+              The main sources of income for quarantine hotels are government-funded or quarantined people’s self-funded
+              room fees.
+            </p>
+
+            <p>
+              In addition, those hotels can make some profit from the meals served to the quarantined people. "The daily
+              meal cost for each quarantined person is about 100 yuan, and we can make 40% to 50% of our gross profit.”
+            </p>
+          </div>
+
+
+          <!-- ======= Gallery2 ======= -->
+          <section id="gallery" class="gallery">
+            <div class="container" data-aos="fade-up">
+
+              <div class="gallery-slider swiper">
+                <div class="swiper-wrapper align-items-center">
+                  <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery2/gallery-1.jpg"><img
+                        src="assets/img/gallery2/gallery-1.jpg" class="img-fluid" alt=""></a></div>
+                  <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery2/gallery-2.jpg"><img
+                        src="assets/img/gallery2/gallery-2.jpg" class="img-fluid" alt=""></a></div>
+                  <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery2/gallery-3.jpg"><img
+                        src="assets/img/gallery2/gallery-3.jpg" class="img-fluid" alt=""></a></div>
+                  <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery2/gallery-4.jpg"><img
+                        src="assets/img/gallery2/gallery-4.jpg" class="img-fluid" alt=""></a></div>
+                  <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery2/gallery-5.jpg"><img
+                        src="assets/img/gallery2/gallery-5.jpg" class="img-fluid" alt=""></a></div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+
+            </div>
+          </section>
+
+          <div class="col-lg-12 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <p>
+              There are also some listed corporations getting into the quarantine business. Zhejiang SSAW Boutique
+              Hotels Co Ltd, which was listed on the Shenzhen Stock Exchange in September 2021, is one of them. The
+              company has a total of 18 self-operated hotels. Among them, Hubin Hotel, Junting Hotel and Baiyang Hotel
+              have been used as quarantine hotels since March 2020. Throughout 2020, the occupancy rates at the three
+              quarantine hotels remained above 90%, while occupancy rates at other hotels hovered between 10% and 40%,
+              according to the company's financial statements.
+            </p>
+            <p>
+              "Although room rates for quarantined people are lower, quarantine hotels have the advantage of high
+              occupancy rates and relative stability," the company said in its prospectus. With these advantages, the
+              three quarantine hotels together contributed 46% to the company's net profit in 2020, far exceeding other
+              hotels.
+            </p>
+            <p>
+              However, the company saw a decline in its performance in the third quarter of 2021—recording a revenue of
+              65.48 million yuan, down 17.26% year on year, and a net profit of 7.518 million yuan, down 46.38%. In
+              addition, revenue for the first three quarters was 212 million yuan, lower than the 230 million yuan
+              forecast.
+            </p>
+            <p>
+              "Repeated outbreaks in the third quarter of 2021 led to a sharp drop in travel in the short term, which
+              was the main reason for the decline in the performance of the company's other normally operating hotels,"
+              said Peter Chen, an analyst at Southwest Securities. "However, this also shows that the company's
+              performance, which relies on such a ‘special matter’ as quarantine hotels, is not sustainable.”
+            </p>
+            <p>
+              Compared with SSAW Boutique Hotel, Shanghai Jin Jiang International Hotels Co Ltd, one of the hotel
+              giants, is mainly composed of mid-end and budget hotel chains. Even in the economy hit by the epidemic,
+              the company's revenue in the first three quarters of 2021 was 8.3 billion yuan, up 19% from the same
+              period last year.
+            </p>
+          </div>
+
+          <div class="col-12 " style="height:30px">
+          </div>
+
+          <div class="col-lg-6">
+            <div id="chartdiv4" style="height:500px"></div>
+          </div>
+
+          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <div class="col-lg-6 " style="height:30px">
+            </div>
+            <p>
+              In the first three quarters, the average occupancy rate of mid-end and budget hotels under Jin Jiang
+              Hotels was 69.48% and 59.95% respectively, down 9.44% and 12.7% respectively compared with the same period
+              in 2019. This signals a better recovery of mid-end hotels compared with budget ones.
+            </p>
+            <p>
+              Meanwhile, as of the end of September 2021, Jinjiang hotel had a total of 5,895 hotels, of which 548 were
+              quarantine hotels. The vast majority of quarantine hotels were budget hotels.
+            </p>
+            <p>
+              Sam Zhou, an expert in hotel management, believes that compared with many low-end hotels with small
+              volumes and poor risk resistance, mid - and high-end hotels, especially chain hotels, can manage to
+              maintain their revenues or even expand during the epidemic due to their higher prices and stable customer
+              base.
+            </p>
+            <p>
+              "It is a good strategy to have some budget hotels that have been hit hard by the epidemic to be quarantine
+              hotels, which can increase their occupancy rates and revenues, and help improve the overall resilience of
+              the group," said Mr Zhou.
+            </p>
+            <p>
+              Compared with SSAW Boutique Hotel, Shanghai Jin Jiang International Hotels Co Ltd, one of the hotel
+              giants, is mainly composed of mid-end and budget hotel chains. Even in the economy hit by the epidemic,
+              the company's revenue in the first three quarters of 2021 was 8.3 billion yuan, up 19% from the same
+              period last year.
+            </p>
+          </div>
+
+          <div class="col-12 " style="height:25px">
+          </div>
+
+          <div class="col-lg-12 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <div class="col-lg-12 " style="height:30px">
+            </div>
+            <p>
+              Despite the temporary revenue, quarantine hotels still face a number of challenges.
+            </p>
+            <p>
+              First, they have more stringent requirements in terms of operational management. According to the national
+              regulations, quarantine hotels need to be transformed into three areas including a clean area, a polluted
+              area and a semi-polluted area, and set up two channels for staff and centralized medical observation
+              personnel; the elevators and carpets in the hotel should be repackaged and covered with mats for easy
+              disinfection; the central air conditioners should be stopped altogether and replaced by separate hanging
+              air conditioners in the rooms.
+            </p>
+            <p>
+              Hotel staff who receive quarantined guests need to take strict protective measures—putting on protective
+              gowns, goggles, masks, foot covers, hoods, etc.— and conduct nucleic acid tests, temperature monitoring,
+              non-contact environment disinfection and garbage disposal for quarantined guests on a daily basis.
+            </p>
+            <p>
+              "Repeated outbreaks in the third quarter of 2021 led to a sharp drop in travel in the short term, which
+              was the main reason for the decline in the performance of the company's other normally operating hotels,"
+              said Peter Chen, an analyst at Southwest Securities. "However, this also shows that the company's
+              performance, which relies on such a ‘special matter’ as quarantine hotels, is not sustainable.”
+            </p>
+            <p>
+              Compared with SSAW Boutique Hotel, Shanghai Jin Jiang International Hotels Co Ltd, one of the hotel
+              giants, is mainly composed of mid-end and budget hotel chains. Even in the economy hit by the epidemic,
+              the company's revenue in the first three quarters of 2021 was 8.3 billion yuan, up 19% from the same
+              period last year.
+            </p>
+          </div>
+
+          <!-- ======= Gallery3 ======= -->
+          <section id="gallery" class="gallery">
+            <div class="container" data-aos="fade-up">
+
+              <div class="gallery-slider swiper">
+                <div class="swiper-wrapper align-items-center">
+                  <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery3/gallery-1.jpg"><img
+                        src="assets/img/gallery3/gallery-1.jpg" class="img-fluid" alt=""></a></div>
+                  <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery3/gallery-2.jpg"><img
+                        src="assets/img/gallery3/gallery-2.jpg" class="img-fluid" alt=""></a></div>
+                  <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery3/gallery-3.jpg"><img
+                        src="assets/img/gallery3/gallery-3.jpg" class="img-fluid" alt=""></a></div>
+                  <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery3/gallery-4.jpg"><img
+                        src="assets/img/gallery3/gallery-4.jpg" class="img-fluid" alt=""></a></div>
+                  <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery3/gallery-5.jpg"><img
+                        src="assets/img/gallery3/gallery-5.jpg" class="img-fluid" alt=""></a></div>
+                  <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery3/gallery-6.jpg"><img
+                        src="assets/img/gallery3/gallery-6.jpg" class="img-fluid" alt=""></a></div>
+                  <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery3/gallery-7.jpg"><img
+                        src="assets/img/gallery3/gallery-7.jpg" class="img-fluid" alt=""></a></div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+
+            </div>
+          </section>
+
+          <div class="col-lg-12 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <p>
+              Mr Zhao said that during the time when his hotel was used as a centralized quarantine spot, the staff
+              received more than 10 epidemic prevention training. "There are dozens of relevant detailed procedures,
+              none of which can go wrong. “
+            </p>
+            <p>
+              In addition, the epidemic has increased the operating costs of hotels. Mr Zhou said that in 2020, each
+              hotel spent nearly 1,500 yuan per day on disinfection, Covid prevention and control equipment. Moreover,
+              due to the frequent spraying of disinfectant throughout the hotel, many types of equipment are seriously
+              corroded or even damaged, raising the cost of equipment replacement and maintenance.
+            </p>
+            <p>
+              "The increase in labor costs is also significant. "Mr Zhao said. “The high intensity and vulnerability of
+              the epidemic prevention work have caused many employees to quit. In order to recruit people, we have to
+              double salaries and provide employees with subsidies and benefits.”
+            </p>
+          </div>
+
+          <div class="col-12 " style="height:30px">
+          </div>
+
+          <div class="col-lg-6">
+            <div id="chartdiv5" style="height:500px"></div>
+          </div>
+
+          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <div class="col-lg-6 " style="height:40px">
+            </div>
+            <p>
+              In addition to operating costs, the possible impact of the label "quarantine hotel" on brand image and
+              consumer psychology is also a major concern for hotel practitioners. "We actually don't want people to
+              know that we used to be a quarantine hotel, because we’re worried that this will influence customers'
+              choices." Mr Zhao said. "Some consumers may be concerned that hotels that have provided centralized
+              isolation may not be fully qualified in terms of hygiene and disinfection, and may have stereotypes in
+              their minds. “
+            </p>
+            <p>
+              Mr Zhang also believed that becoming a quarantine hotel may affect the future business to a certain
+              extent. For example, in most cases, conferences in other provinces will give priority to hotels that have
+              not received quarantined people under the premise of similar prices.
+            </p>
+            <p>
+              However, he was optimistic that after the epidemic becomes normalized, the impact of the "quarantine
+              hotel" label on consumer psychology will gradually disappear.
+            </p>
+          </div>
+
+          <div class="col-12 " style="height:20px">
+          </div>
+
+          <div class="col-lg-12 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <div class="col-lg-12 " style="height:30px">
+            </div>
+            <p>
+              The large number of quarantines has also put a lot of pressure on the government's budget. Healthcare
+              Expenditure in 2021 and 2020 was 1,920.5 billion yuan and 1,920.1 billion yuan, respectively, up about 15%
+              compared with 2019. Among them, the Public Health Expenditure, which is directly related to epidemic
+              prevention and control, reached 387.9 billion yuan in 2020, up 74.9% from last year.
+            </p>
+            <p>
+              Despite the heavy social burden of constantly pursuing zero cases, China has long stressed that such a
+              strategy is the most cost-effective, otherwise the healthcare system could be overwhelmed by the rapid
+              increase in cases.
+            </p>
+            <p>
+              The survival of quarantine hotels is inseparable from the financial support of the government. For local
+              close contacts, the government needs to fully subsidize their cost of staying in quarantine hotels. For
+              hotels that receive incoming tourists, the government will give corresponding subsidies for vacant rooms.
+            </p>
+            <p>
+              Wang said that the vacancy subsidy policy varies from region to region. For a place like Shanghai, which
+              receives a lot of inbound tourists, the government may only subsidize about 50% of the vacant rooms. For
+              second - and third-tier cities, which receive fewer inbound tourists, the government may subsidize 80% to
+              100% to prevent large-scale empty rooms in hotels.
+            </p>
+            <p>
+              Still, the number of arrivals to Shanghai is volatile. So we still have to deal with a lot of empty rooms
+              and losses from time to time, “ said Mr Wang.
+            </p>
+            <p>
+              A growing number of quarantine hotels are providing strong support for China's covid-zero policy, but they
+              are not able to find the backing to support their future development.
+            </p>
+            <p>
+              "Sometimes I even want time to stand still in this era of the pandemic," Mr Zhao said helplessly.
+              "Otherwise
+              I would have probably lost my hotel.”
+            </p>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Quarantine Hotels -->
+
+
+    <!-- ======= Unequal Impact ======= -->
+    <section id="departments" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Hotels got impacted unequally by the pandemic</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <p>
+              Tens of thousands of hotels in China have closed down due to the pandemic, with a closure rate of more
+              than 20%. However, Wei Lai bucked the trend and opened a new hotel in Shanghai in June 2021. The new hotel
+              is a franchise hotel under the Shanghai Jin Jiang International Hotels Co Ltd.
+            </p>
+            <p>
+              “The hotel has not made a profit since it opened and is just barely keeping afloat," said Mr Wei. However,
+              he said that he had to open the business because he rented the property and paid for the renovation before
+              the epidemic.
+            </p>
+            <p>
+              “The longer I wait, the more I will lose. "
+            </p>
+            <p>
+              The situation of various hotels has become more and more polarized after the epidemic. While it is
+              increasingly difficult for independent hotels to survive, hotel groups are busy opening new hotels. In
+              addition, mid-to-high-end hotel chains have suffered significantly less than budget hotels.
+            </p>
+            <p>
+              According to the 2021 China Hotel Industry Development Report released by the China Hotel Association,
+              there were nearly 60,000 fewer hotels in mainland China in 2020 than in 2019, of which independent hotels
+              account for as high as 98%. Most independent hotels have a few sources of customers and eke out a living
+              from quarantine businesses.
+            </p>
+            <p>
+              This comes at a time when the big hotel chains are accelerating their expansion. They either have strong
+              financial resources or are mainly asset-light, hoping to grab market share amid industry turmoil. In 2021,
+              the number of chain hotels and rooms in China greatly increase, whether high-end, mid-range or budget
+              hotels. In particular, the number of high-end hotels increased from 3,200 to nearly 5,000, and the number
+              of rooms increased from 500,000 to 700,000.
+            </p>
+            <p>
+              "Independent hotels are far less tolerant of risk than the big chains,” said Sam Zhou, expert in hotel
+              management. "Without the endorsement of the deep-pocketed hotel groups, it is difficult for them to
+              survive in the sluggish economy and increasingly competitive market."
+            </p>
+          </div>
+
+          <!-- ======= Hotel Num by Year Section ======= -->
+          <section class="departments">
+            <div class="container" data-aos="fade-up">
+              <!-- <div class="section-title">
+                <h2>Departments</h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+                  consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+                  fugiat sit
+                  in iste officiis commodi quidem hic quas.</p>
+              </div> -->
+              <div class="row" data-aos="fade-up" data-aos-delay="100" style="height:600px">
+                <div class="col-lg-2 mb-5 mb-lg-0">
+                  <ul class="nav nav-tabs flex-column">
+                    <li class="nav-item" style="height:150px">
+                      <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+                        <h4>Jin Jiang Hotels</h4>
+                        <!-- <p>Quis excepturi porro totam sint earum quo nulla perspiciatis eius.</p> -->
+                      </a>
+                    </li>
+                    <li class="nav-item mt-2" style="height:150px">
+                      <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+                        <h4>BTG Hotels</h4>
+                        <!-- <p>Voluptas vel esse repudiandae quo excepturi.</p> -->
+                      </a>
+                    </li>
+                    <li class="nav-item mt-2" style="height:150px">
+                      <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+                        <h4>Huazhu Hotels</h4>
+                        <!-- <p>Velit veniam ipsa sit nihil blanditiis mollitia natus.</p> -->
+                      </a>
+                    </li>
+                    <li class="nav-item mt-2" style="height:150px">
+                      <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+                        <h4>IHG Hotels</h4>
+                        <!-- <p>Ratione hic sapiente nostrum doloremque illum nulla praesentium id</p> -->
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-10">
+                  <div class="tab-content">
+                    <div class="tab-pane active show" id="tab-1">
+                      <h3>Shanghai Jin Jiang International Hotels Co., Ltd.</h3>
+                      <!-- <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata
+                        raqer a
+                        videna mareta paulona marka</p> -->
+                      <div class="row">
+                        <div class="col-lg-8">
+                          <div id="chartdiv6" style="height:500px"></div>
+                        </div>
+                        <div class="col-lg-4">
+                          <div class="col-lg-12 " style="height:72px">
+                          </div>
+                          <p>As of December 31, 2021, Jin Jiang Group has a total of 10,613 hotels and 1.02 million
+                            hotel
+                            rooms in operation, according to its financial report. In 2021, the Group has opened 1,763
+                            new
+                            hotels, including 1,456 franchised hotels.</p>
+                          <p>In addition, the Group plans to open 1,500 chain limited-service hotels and sign 2,500
+                            chain
+                            limited-service hotels in 2022.</p>
+                        </div>
+                      </div>
+                      <!-- <img src="assets/img/departments-1.jpg" alt="" class="img-fluid"> -->
+                    </div>
+                    <div class="tab-pane" id="tab-2">
+                      <h3>Btg Hotels (group) Co., Ltd.</h3>
+                      <div class="row">
+                        <div class="col-lg-8">
+                          <div id="chartdiv7" style="height:500px"></div>
+                        </div>
+                        <div class="col-lg-4">
+                          <div class="col-lg-12 " style="height:72px">
+                          </div>
+                          <p>The Btg Hotels Group opened 1,418 stores in 2021, up 56.0% from the same period last year,
+                            according to the company’s financial statement. Among them, 1,391 stores were opened through
+                            franchise, accounting for 98.1%. By the end of 2021, the proportion of franchised stores
+                            increased to 87.3%, and the proportion of hotel management business in total hotel revenue
+                            increased to 25.3% from 23.1% in the same period in 2020.</p>
+                          <p>In addition, the group will further accelerate the pace of hotel openings in 2022, with
+                            1,800 to 2,000 new hotels planned.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane" id="tab-3">
+                      <h3>Huazhu Hotels Group Ltd</h3>
+                      <div class="row">
+                        <div class="col-lg-8">
+                          <div id="chartdiv8" style="height:500px"></div>
+                        </div>
+                        <div class="col-lg-4">
+                          <div class="col-lg-12 " style="height:72px">
+                          </div>
+                          <p>As of December 31, 2021, Huazhu had a global network of 7,830 hotels and 753,216 rooms in
+                            operation, according to the group's financial report. In 2021, the group opened 33 leased
+                            hotels and 1,507 managed-franchises and franchised hotels. Huazhu expects to open about
+                            1,500 hotels in 2022.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane" id="tab-4">
+                      <h3>InterContinental Hotels Group plc</h3>
+                      <div class="row">
+                        <div class="col-lg-8">
+                          <div id="chartdiv9" style="height:500px"></div>
+                        </div>
+                        <div class="col-lg-4">
+                          <div class="col-lg-12 " style="height:72px">
+                          </div>
+                          <p>In 2021, the global IHG System (the number of hotels and rooms which are franchised,
+                            managed, owned, leased or managed lease) increased by 27 hotels to 5,991 hotels (880,327
+                            rooms). Openings of 291 hotels (43,958 rooms) were 11.6% higher than in 2020.</p>
+                          <p>In addition, with the growing demand for leisure travel in China and the rapid growth of
+                            high net worth consumers, IHG will open a greater number of its luxury boutique flagship
+                            hotels in 2022, according to the CEO of IHG Greater China.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+          </section><!-- End Hotel Num by Year Section -->
+
+          <div class="col-12 " style="height:30px">
+          </div>
+
+          <div class="col-lg-12 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <p>
+              In the case of a bad economic environment and the aftermath of the epidemic, how can these hotel groups
+              have the confidence to expand against the trend?
+            </p>
+            <p>
+              After looking into the operating data of the above-mentioned companies, we can find that most of these
+              hotel groups open new stores in the mode of franchise or light management, and franchising accounts for
+              more than 80%. The number and proportion of the group's self-owned or leased hotels have gradually
+              decreased in the past five years.
+            </p>
+            <p>
+              Stacey Zhang Tong, a professor at the Department of Tourism and Hotel Management of Xiamen University,
+              believes that this kind of expansion can transform hotel groups from asset-heavy enterprises to
+              asset-light ones, greatly increasing the speed of expansion and making them more resilient to risks.
+            </p>
+            <p>
+              Under normal circumstances, hotel properties are mainly self-owned and leased, and rely on their own
+              funds, loans, or financing to complete daily operations and store expansion, known as "asset-heavy" in the
+              industry. The model of separating the light and heavy assets from the property and the brand, introducing
+              the franchise model, and reducing leverage, is known as "asset-light" in the industry.
+            </p>
+            <p>
+              Specific to the "asset-light" model, two different ways have been derived, namely entrusted management and
+              franchising. Under the entrusted management, the brand side needs to be fully responsible for the
+              operation of the hotel, from the construction of the operation management system to the team formation and
+              implementation standards. Franchising is even "lighter", handing over the business system such as brand
+              intellectual property rights, operation management methods, marketing tools, and daily quality control to
+              the owners, and not participating in the daily operation and management of the hotel.
+            </p>
+            <p>
+              "By using this way to expand, hotel groups can receive a lot of franchise fees and management fees with
+              limited requirements for capital, increasing their cash flow without interest," said Stacey Zhang.
+            </p>
+            <p>
+              Jin Jiang Hotel's franchise management fee revenue reached a maximum of 3.56 billion yuan, accounting for
+              36% of its operating income. The franchise management fees of Huazhu and BTG Hotels Group accounted for
+              30.76% and 21.99% of the operating income, respectively.
+            </p>
+            <p>
+              On top of that, all three companies have positive operating cash flow and are sitting on piles of cash and
+              equivalents. Huazhu, Jinjiang, and BTG have cash of 5.12 billion, 5.76 billion, and 3.16 billion
+              respectively as of December 31, 2021.
+            </p>
+            <p>
+              "Even in the worst economic situation, the cash on hand can help them survive for several years.”
+            </p>
+            <p>
+              Expanding to capture the market is another important reason. Stacey Zhang believes that the hotel industry
+              is already a stock market, in the final analysis, whoever opens more stores can occupy the absolute
+              advantage.
+            </p>
+            <p>
+              "Adopting a long-term asset-light strategy allows the groups to focus on their core business and thus
+              accelerate the expansion of the hotel brand."
+            </p>
+            <p>
+              For hotel groups, the more franchised hotel business, the better. It enables the groups to introduce
+              themselves into the sinking market and popular destination without any investment, expand their brand
+              awareness and competitiveness, and cultivate the inertial thinking of consumers.
+            </p>
+            <p>
+              "In addition to that, the pandemic and the recession just gave them a perfect opportunity," said Stacey
+              Zhang. "Because they can buy a lot of high-quality, cash flow-broken companies at very low prices, which
+              costs a lot less than expanding during the boom."
+            </p>
+            <p>
+              After that, by the time the economy picks up, they've got a big chunk of the market, and future revenues
+              will be flowing.
+            </p>
+          </div>
+
+          <div class="col-12 " style="height:30px">
+          </div>
+
+          <div class="col-lg-6">
+            <div id="chartdiv10" style="height:500px"></div>
+          </div>
+
+          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <div class="col-lg-6 " style="height:40px">
+            </div>
+            <p>
+              The expansion has allowed hotel groups to recover quickly after being hit in profitability in 2020.
+              Although there is still a gap compared to 2019, their profitability is already far better than their
+              peers. In the case that the profits of the entire hotel industry have not yet been corrected, except for
+              Huazhu Group, Jin Jiang, BTG and InterContinental Hotels have all achieved positive net earnings of
+              100.6million, 55.7million, and 1687million yuan in 2021.
+            </p>
+            <p>
+              "The profitability of leading enterprises is much better than that of their peers, and the independent
+              hotels can't match them. This also shows that the chaining of China's hotel industry in the future is an
+              inevitable trend,” said Stacey Zhang.
+            </p>
+            <p>
+              However, this business model of hotel groups is also equivalent to passing on the risk to franchisees.
+            </p>
+            <p>
+              Stacey Zhang said that franchisees are usually responsible for their own profits and losses, and how much
+              money they lose is not reflected in the brand companies’ financial statements in the short term. Instead,
+              the companies charge not only franchise fees but also annual management fees.
+            </p>
+            <p>
+              “It's the franchisees who suffer the most.”
+            </p>
+          </div>
+
+          <div class="col-lg-12 " style="height:36px">
+          </div>
+
+          <div class="col-lg-12 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <p>
+              The epidemic has hit the performance of hotels so hard, why do a large number of investors choose to join?
+            </p>
+            <p>
+              Wei Lai is one of those who just joined BTG Group to open a franchised hotel. He said that everyone
+              thought that after the epidemic, it should be the brand side to ask franchisees to join, but the reality
+              is that many franchisees take the initiative to get closer to the hotel group.
+            </p>
+            <p>
+              "Many franchisees are self-employed on a small budget, and they have invested in the initial investment
+              before the epidemic. If they do not want their hotels to be completely closed, they can only find other
+              ways to open."
+            </p>
+            <p>
+              However, under the epidemic situation, both the government and guests have higher requirements for hotel
+              elimination and environment, and they prefer to stay in branded chain hotels.
+            </p>
+            <p>
+              "Guests feel more comfortable staying in branded hotels, and the government is more willing to negotiate
+              quarantine business with branded hotels," Mr. Wei said. "So I had to become a franchisee and pay this
+              "branding fee."
+            </p>
+            <p>
+              In addition to franchisees like Mr. Wei, there are also some investors who were unable to sustain
+              themselves after the epidemic and chose to join the hotel group to complete the transformation from
+              low/mid-end to mid-end/high-end hotels.
+            </p>
+            <p>
+              Lu Yanbing’s hotel is located in Wuzhen, the northern part of Zhejiang Province. The hotel's positioning
+              in the early stage of planning is mid-range, and the customer base target is tourists in the peak season.
+              In order to make the hotel look fancier, he also spent a lot of money on renovation and hardware
+              facilities.
+            </p>
+            <p>
+              But after several rounds of repeated outbreaks, local tourists plummeted. Her hotel was in a more
+              difficult position after losing its main customer base.
+            </p>
+            <p>
+              Ms Lu said her hotel was not competitive in terms of price compared to the economy and express hotel,
+              which did not attract local tourists. And her less well-known hotel brand didn't have an advantage over
+              mid-range chains, either.
+            </p>
+            <p>
+              "In this case, I chose to cooperate with high-end brands, so that I could completely monopolize the local
+              high-end customer market."
+            </p>
+            <p>
+              Apart from that, many investors are eyeing the rapid development of the sinking market.
+            </p>
+            <p>
+              Yang Guangyuan joined the 7 Days Inn Hotel chain in early 2021. The hotel is located in Daqing city,
+              Heilongjiang Province, one of the 70 third-tier cities in China.
+            </p>
+            <p>
+              He said that during the epidemic, hotel groups reduced franchise fees to varying degrees, and he was able
+              to apply for low-cost special refinancing from the government, which has greatly reduced the cost of
+              opening.
+            </p>
+            <p>
+              "My hotel is now mainly working with the government to receive quarantined people, which is actually
+              losing money,” said Mr Yang. “However, I believe that after the pandemic, the business will get better, so
+              it is most important for me to get the hotel opened first!”
+            </p>
+            <p>
+              In addition to the four first-tier cities, 15 new first-tier cities, and 30 second-tier cities, there are
+              more than 600 cities with sinking markets that still have a lot of room for development, according to
+              Stanley Jiang, a senior economist at the New World Hotel.
+            </p>
+            <p>
+              "Investors who choose to start their businesses in the epidemic can use the lowest cost to seize the
+              sinking market with a large population size and consumption scale, paving the way for further exploration
+              of greater consumption potential after the epidemic," said Stanley Jiang.
+            </p>
+          </div>
+
+          <div class="col-12 " style="height:30px">
+          </div>
+
+
+          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <div class="col-lg-6 " style="height:60px">
+            </div>
+            <p>
+              However, even for hotel chains, the blows faced by different star hotels are not the same.
+            </p>
+            <p>
+              Statistics for the first quarter of 2020 show that the number of one- and two-star hotels decreased by 11%
+              compared with the previous quarter, while the number of four- and five-star hotels decreased by only 2.8%.
+            </p>
+            <p>
+              "Mid - to high-end hotels have been able to maintain revenue through higher room rates at a time when
+              occupancy rates at almost all hotels have plummeted,” said Stanley Jiang. “However, most of the low-end
+              hotels have unstable customer base, lack measures and procedures in response to emergencies, and have poor
+              risk resistance, therefore suffering much higher losses than the middle and high-end hotels.”
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <div id="chartdiv11" style="height:500px"></div>
+          </div>
+          <div class="col-lg-12 " style="height:50px">
+          </div>
+
+          <div class="col-lg-6">
+            <div class="infogram-embed" style="max-width:800px" data-id="4d89de63-d587-4ccf-9607-1a93ee48908d"
+              data-type="interactive" data-title="Major Hotel Groups Comparison"></div>
+            <script>!function (e, i, n, s) { var t = "InfogramEmbeds", d = e.getElementsByTagName("script")[0]; if (window[t] && window[t].initialized) window[t].process && window[t].process(); else if (!e.getElementById(n)) { var o = e.createElement("script"); o.async = 1, o.id = n, o.src = "https://e.infogram.com/js/dist/embed-loader-min.js", d.parentNode.insertBefore(o, d) } }(document, 0, "infogram-async");</script>
+            <div
+              style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px">
+              <a href="https://infogram.com/4d89de63-d587-4ccf-9607-1a93ee48908d"
+                style="color:#989898!important;text-decoration:none!important;" target="_blank">Major Hotel Groups
+                Comparison</a><br><a href="https://infogram.com"
+                style="color:#989898!important;text-decoration:none!important;" target="_blank"
+                rel="nofollow">Infogram</a>
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <div class="col-lg-12 " style="height:60px">
+            </div>
+            <p>
+              From the comparison of the business recovery of major hotel groups, we can also see the difference in the
+              recovery of different levels of hotels.
+            </p>
+            <p>
+              Different from Huazhu, Jin Jiang, BTG and other hotel groups with various hotel types such as economy,
+              mid-end and high-end, Atour Lifestyle Holdings Limited is a chain brand focusing on mid-to-high-end
+              hotels.
+            </p>
+            <p>
+              In terms of operating income, the revenue of the four major groups in the first half of 2021 achieved a
+              general increase compared with the first half of 2020, but it was still uneven compared with the first
+              half of 2019. Among them, Atour's business with a focus on mid-to-high-end hotels has the highest degree
+              of recovery, and its revenue in the first half of 2021 has achieved a significant increase of 44% compared
+              with the first half of 2019.
+            </p>
+            <p>
+              Moreover, while atour's net profit base is not as high as that of other hotel groups, it is the only hotel
+              to report a net profit increase from 2019.
+            </p>
+            <p>
+              Occupancy rate (OCC), average room rate (ADR), and revenue per available room (RevPAR) are three important
+              operating indicators for the hospitality industry.
+            </p>
+            <p>
+              Comparing the occupancy rates of several hotels over the past three years, only Atour has achieved
+              positive growth in the first two quarters of 2021 compared with the same period in 2019, while Huazhu,
+              Jinjiang, and BTG have not recovered to pre-epidemic levels.
+            </p>
+            <p>
+              In the past two years, the average quarterly room rate of Atuo is far ahead of the middle end hotels of
+              Huazhu, Jinjiang and BTG, and has long been higher than the average of the mid-to-high-end hotel industry.
+            </p>
+            <p>
+              "On the one hand, it may have something to do with the social psychology that consumers are more willing
+              to treat themselves better and prefer high-quality accommodation when sleeping out in the post-epidemic
+              era,” said Stanley Jiang. “On the other hand, tourism may be intermittently suppressed due to the repeated
+              impact of the epidemic, but business trips are basically normalized, and Atour enjoys high brand
+              recognition among business travelers."
+            </p>
+            <p>
+              According to Frost & Sullivan's report, the revenue of China's hotel chain industry increased from 245.4
+              billion yuan in 2015 to 450 billion yuan in 2019, with an average annual compound growth rate of 16.4%.
+              Despite the huge scale of the hotel industry, China's chain rate is only 31.5%, leaving plenty of room for
+              growth. From 2021 to 2025, it is expected that mid-and high-end hotel chains will become the fastest
+              growing segments in the entire hotel industry.
+            </p>
+            <p>
+              The proportion of mid - and high-end hotels in the hotels under Huazhu, Jin Jiang and BTG is increasing
+              year by year, and the hotel groups have all said in their financial statements that they will continue to
+              increase their proportions in the next few years.
+            </p>
+            <p>
+              "Mid - and high-end hotels have shown strong resilience in the wake of the pandemic. Under the influence
+              of consumption upgrading and consumption psychology in the post-epidemic era, the market recognition of
+              middle and high-end hotels will continue to rise, and the market space is expected to continue to expand,"
+              said Stanley Jiang.
+            </p>
+            <p>
+              Another point to note is that the expansion of hotel groups in the long term does has its hidden danger.
+            </p>
+            <p>
+              "By switching from asset-heavy to asset-light, hotel groups have lost absolute control over many hotels,
+              making it more difficult to maintain overall brand and quality, " said Stacey Zhang.
+            </p>
+            <p>
+              After all, she said, the brand side cannot fully control the behavior of franchisees. Once a franchisee
+              fails to operate in accordance with the terms of the franchise agreement and meet the management standards
+              of the branded hotel, the hotel it manages will experience a loss of customers and revenue, which will
+              adversely affect the revenue of the hotel brand's business. In addition, if a franchisee misuses such
+              brand trademarks, it may also damage its reputation and brand image.
+            </p>
+            <p>
+              The tearing between the owner and the brand has also been the focus of controversy in the industry.
+            </p>
+            <p>
+              Fang Lixin's hotel used to be run by the local government, but was later incorporated into an
+              international brand to raise its profile. In addition to the higher annual brand fee, the hotel's
+              management is also appointed by the group and paid by the hotel.
+            </p>
+            <p>
+              Mr Fang said that sometimes in a hotel with uncomplicated personnel, there will be many managers and vice
+              presidents, and the number of leaders is even more than the number of ordinary employees.
+            </p>
+            <p>
+              The salary of management is several times or even ten times that of ordinary employees, which is
+              significantly higher than the average salary of local and similar hotels, and those positions with lower
+              salaries, such as housework, kitchen, etc., are delayed in recruiting manpower. This not only makes the
+              contradictions between employees increase day by day, but also greatly increases the hotel's human labor
+              costs. In the case of not making money, the gap between the operator and the brand side will also arise.
+            </p>
+            <p>
+              Despite potential concerns, the expansion of hotel groups against the trend is inevitable.
+            </p>
+            <p>
+              "The blow from COVID-19 has been unfair. Benefiting from the Matthew effect, the leading companies
+              continue to achieve an increase in market penetration, while behind them is the demise of tens of
+              thousands of hotels.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Unequal Impact -->
+
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <!-- <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>Medicio</h3>
+              <p>
+                A108 Adam Street <br>
+                NY 535022, USA<br><br>
+                <strong>Phone:</strong> +1 5589 55488 55<br>
+                <strong>Email:</strong> info@example.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+
+          </div> -->
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Medicio</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/medicio-free-bootstrap-theme/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
