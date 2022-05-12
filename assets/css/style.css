@@ -457,6 +457,8 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   transform: translate3d(0, 0, 0);
 }
+
+
 /* #hero .carousel-control-next-icon, #hero .carousel-control-prev-icon {
   background: none;
   font-size: 30px;
@@ -505,9 +507,13 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   background: #3fbbc0;
   margin-bottom: 0px;
+  margin-left: 20px;
 }
 #hero .btn-get-started:hover {
   background: #65c9cd;
+  /* margin-top: 220px; */
+  /* margin-left:200px; */
+  /* margin-right: 300px; */
 }
 @media (max-width: 992px) {
   #hero {
@@ -1163,6 +1169,34 @@ section {
 /*--------------------------------------------------------------
 # Gallery
 --------------------------------------------------------------*/
+.section-title1 p {
+  text-align: right;
+  font-size: 13px;
+  
+}
+/* .section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #3fbbc0;
+  bottom: 0;
+  left: 2px;
+}
+.section-title p {
+  margin-bottom: 0;
+} */
+
+
 .gallery {
   overflow: hidden;
 }
